@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\rtklib">
+      <UniqueIdentifier>{e063e855-0e51-401e-bd79-c8bc85c07187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rtklib\rcv">
+      <UniqueIdentifier>{b11d0875-4323-4329-9ca3-0cd0162c1688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\GnssEph.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\rtklib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SafeLog.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\StrSvr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\TcpServer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\geoid.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcvraw.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rtcm.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rtcm2.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rtcm3.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rtcm3e.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rtkcmn.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\sbas.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\solution.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\stream.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\streamsvr.c">
+      <Filter>源文件\rtklib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\binex.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\crescent.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\gw10.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\javad.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\novatel.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\nvs.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\rcvlex.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\rt17.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\septentrio.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\skytraq.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\ss2.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\ub380.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtklib\rcv\ublox.c">
+      <Filter>源文件\rtklib\rcv</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
