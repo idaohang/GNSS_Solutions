@@ -25,7 +25,7 @@ public:
 
 	}
 
-	void addEph(int sat, const eph_t* eph)
+	void addEph(int sat, const eph_t* eph) //gps/gal/cmp eph
 	{
 		memcpy(&rtcm_data.nav.eph[sat - 1], eph, sizeof(eph_t));
 	}

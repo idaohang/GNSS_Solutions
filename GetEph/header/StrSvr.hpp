@@ -200,31 +200,23 @@ private:
 		char msg[20] = { 0 };
 		sprintf(msg, "%s::%d", getName(), myconv[0]->out.obs.n);
 		SafeLog::logMsg(msg);
-		//cout << msg << endl;
 
 		for (int i = 0; i < myconv[0]->out.nav.n; i++)
 		{
 			if (32 <= i&&i <= 55)
 			{
-				if ((sat = myconv[0]->out.nav.geph[i - NSATGPS].sat) != 0)
-				{
-					SafeLog::logInt(sat);
-				}
+				sat = myconv[0]->out.nav.geph[i - NSATGPS].sat;
 			}
 			else
 			{
-				if ((sat = myconv[0]->out.nav.eph[i].sat) != 0)
-				{
-					SafeLog::logInt(sat);
-				}
+				sat = myconv[0]->out.nav.eph[i].sat;
 			}
 			if (sat != 0)
 			{
-				//cout << sat << "  ";
+				SafeLog::logInt(sat);
 			}
 		}
 
-		//cout << endl;
 		SafeLog::logEndl();
 	}
 };
